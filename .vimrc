@@ -71,6 +71,7 @@ Plugin 'jez/vim-ispc'
 :setf ispc
 
 Plugin 'rhysd/vim-clang-format'
+Plugin 'google/yapf', { 'rtp': 'plugins/vim' }
 
 Plugin 'tikhomirov/vim-glsl'
 
