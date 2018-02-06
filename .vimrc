@@ -71,7 +71,7 @@ Plugin 'jez/vim-ispc'
 :setf ispc
 
 Plugin 'rhysd/vim-clang-format'
-Plugin 'google/yapf', { 'rtp': 'plugins/vim' }
+Plugin 'tell-k/vim-autopep8'
 
 Plugin 'tikhomirov/vim-glsl'
 
@@ -85,7 +85,7 @@ Plugin 'google/vim-maktaba'
 Plugin 'google/vim-codefmt'
 " Also add Glaive, which is used to configure codefmt's maktaba flags. See
 " `:help :Glaive` for usage.
-" Plugin 'google/vim-glaive'
+Plugin 'google/vim-glaive'
 
 Plugin 'scrooloose/nerdtree'
 
@@ -120,6 +120,7 @@ let g:kite_tab_complete=1
 
 
 call vundle#end()            " required
+call glaive#Install()
 filetype plugin indent on    " required
 augroup autoformat_settings
   autocmd FileType bzl AutoFormatBuffer buildifier
