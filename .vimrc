@@ -21,7 +21,7 @@ set backspace=eol,start,indent
 set whichwrap+=<,>
 set completeopt+=menu
 set completeopt-=menuone
-set cmdheight=2
+set noshowmode
 "The Vundle sample configuration
 set nocompatible              " be iMproved, required
 filetype off                  " required
