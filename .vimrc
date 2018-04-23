@@ -85,6 +85,7 @@ let g:ycm_add_preview_to_completeopt = 0
 let g:ycm_show_diagnostics_ui = 0
 let g:ycm_server_keep_logfiles = 1
 let g:ycm_server_log_level = 'debug'
+let g:ycm_path_to_python_interpreter = '/usr/bin/python'
 "let g:ycm_server_log_level = 'info'
 let g:ycm_min_num_identifier_candidate_chars = 2
 let g:ycm_collect_identifiers_from_comments_and_strings = 1
@@ -102,7 +103,7 @@ let g:ycm_semantic_triggers =  {
 " let g:ycm_auto_trigger = 1
 " let g:ycm_server_keep_logfiles = 1
 " let g:ycm_server_log_level = 'debug'
-let g:ycm_python_binary_path = '/Users/yazhigao/anaconda3/bin/python'
+" let g:ycm_python_binary_path = '/Users/yazhigao/anaconda3/bin/python'
 " let g:ycm_filetype_specific_completion_to_disable = {
 "       \ 'python': 1,
 "       \ 'cpp': 1,
